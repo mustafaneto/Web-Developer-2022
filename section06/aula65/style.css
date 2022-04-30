@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+h1 {
+    text-align: center;
+    font-weight: normal;
+    text-decoration: red underline;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+ul {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: blueviolet;
+    text-decoration: black underline;
+}

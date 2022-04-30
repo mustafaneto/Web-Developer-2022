@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+span#red {
+    color: rgb(255,0,0)
+}
+
+span#green {
+    color: rgb(0,255,0)
+}
+
+span#blue {
+    color: rgb(0,0,255)
+}
+
+h1 {
+    text-align: center;
+}
+
+span#hexa {
+    color: #0f5679;
+}
+
+span#deci {
+    color: #ff180a;
+}
+
+span#mal {
+    color: #49f120;
+}
