@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Types</title>
+</head>
+<body>
+    <h1>Input Types</h1>
+    <form action="/trilha">
+        <h2>Check Box (different names)</h2>
+        <div>
+            <input type="checkbox" id="caosentado" name="caosentado" checked>
+            <label for="caosentado">Cão Sentado</label>
+        </div>
+        <div>
+            <input type="checkbox" id="picocaledonia" name="picocaledonia">
+            <label for="picocaledonia">Pico da Caledônia</label>
+        </div>
+        <div>
+            <input type="checkbox" id="chapeubruxa" name="chapeubruxa">
+            <label for="chapeubruxa">Chapéu da Bruxa</label>
+        </div>
+
+        <h2>Radio (same names)</h2>
+        <div>
+            <input type="radio" id="caosentado1" name="trilha" checked value="caosentado1">
+            <label for="caosentado1">Cão Sentado</label>
+        </div>
+        <div>
+            <input type="radio" id="picocaledonia1" name="trilha" value="picocaledonia1">
+            <label for="picocaledonia1">Pico da Caledônia</label>
+        </div>
+        <div>
+            <input type="radio" id="chapeubruxa1" name="trilha" value="chapeubruxa1">
+            <label for="chapeubruxa1">Chapéu da Bruxa</label>
+        </div>
+
+        <h2>Select/Option</h2>
+        <div>
+            <select name="trilha" id="trilha-select">
+                <option value="" disabled selected>Selecione a trilha:</option>
+                <option value="caosentado">Cão Sentado</option>
+                <option value="picocaledonia">Pico Caledônia</option>
+                <option value="chapeubruxa">Chapéu da Bruxa</option>
+            </select>
+        </div>
+
+        <button>Enviar</button>
+    </form>
+</body>
+</html>
